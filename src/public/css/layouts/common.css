@@ -1,0 +1,111 @@
+body {
+    font-size: 20px;
+    background-color: #f0eff2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.header-nav {
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-nav-admin {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-nav__link {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-nav-admin__link {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.header-nav__button {
+    color: white;
+    background-color: black;
+    font-size: 23px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* 画面中央に要素を表示させるコンテナ */
+.page-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+
+/* 共通で使うページタイトル */
+.attendance-header {
+    width: 60%;
+    padding-top: 60px;
+}
+.page-title {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.page-title::before {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 37px;
+    background-color: black;
+}
+
+.submit-button-wrap {
+    display: flex;
+    width: 60%;
+}
+
+.submit-button {
+    font-size: 24px;
+    padding: 5px 40px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    margin-left: auto;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.submit-button:disabled {
+    background-color: #696969;
+}
+
+@media(max-width:1300px) {
+    .header-nav__link {
+        font-size: 18px;
+    }
+
+    .header-nav__button {
+        font-size: 18px;
+    }
+
+    .header-nav-admin__link {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,33 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.verify-info {
+    font-weight: bold;
+    margin: 35px;
+}
+
+.verify-link {
+    width: 20%;
+    padding: 15px;
+    margin: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #d9d9d9;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.verify-mail-send {
+    border: none;
+    color: #0173cc;
+    font-size: 18px;
+    margin: 35px;
+    cursor: pointer;
+}

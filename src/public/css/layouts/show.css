@@ -1,0 +1,95 @@
+.form-wrap {
+    width: 60%;
+    padding-bottom: 70px;
+}
+
+.attendance-show-area {
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.partitioned-area {
+    height: 90px;
+    border-bottom: 2px solid #ebebeb;
+    display: flex;
+    align-items: center;
+}
+
+.partitioned-area__last {
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.col-1 {
+    width: 20%;
+    color: #737373;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.col-2 {
+    width: 12%;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 70px;
+    padding: 3px 0;
+}
+.col-3 {
+    width: 12%;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 0;
+}
+.col-4 {
+    width: 12%;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 0;
+}
+
+textarea {
+    width: 36%;
+    height: 76px;
+    margin-left: 70px;
+    border-radius: 5px;
+    border: 1.5px solid #ebebeb;
+}
+
+input[type="time"] {
+    -moz-appearance: textfield;
+    /* Firefox */
+}
+
+/* Chrome, Edge, Safari */
+input[type="time"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-clear-button {
+    display: none;
+}
+
+input[type="time"] {
+    border-radius: 5px;
+    border: 1.5px solid #ebebeb;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.pending-message {
+    color: red;
+    font-weight: bold;
+    text-align: right;
+}
+
+.error-message {
+    margin: 0 10px;
+    color: red;
+    font-size: 14px;
+}

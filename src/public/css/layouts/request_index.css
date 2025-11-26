@@ -1,0 +1,23 @@
+.tab {
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+.tab-link {
+    color: black;
+    font-size: 22;
+    text-decoration: none;
+    margin: 0 50px;
+}
+
+.tab-link.active {
+    font-weight: bold;
+}
+
+hr {
+    width: 60%;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
