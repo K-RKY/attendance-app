@@ -21,13 +21,14 @@
 
 ### テスト環境構築
 
-1. `mysql -u root -p`
-2. `CREATE DATABASE attendance_test;`
-3. `.envから.env.testingを作成し、環境変数をテスト用に変更`
-4. `docker-compose exec php bash`
-5. `php artisan key:generate --env=testing`
-6. `php artisan config:clear`
-7. `php artisan migrate --env=testing`
+1. `docker exec -it mysql-container bash`
+2. `mysql -u root -p`
+3. `CREATE DATABASE attendance_test;`
+4. `.envから.env.testingを作成し、環境変数をテスト用に変更`
+5. `docker-compose exec php bash`
+6. `php artisan key:generate --env=testing`
+7. `php artisan config:clear`
+8. `php artisan migrate --env=testing`
 
 *管理者ユーザー
 
