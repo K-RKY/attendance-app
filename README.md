@@ -21,7 +21,7 @@
 
 ### テスト環境構築
 
-1. `docker exec -it mysql-container bash`
+1. `docker exec -it attendance-app-mysql-1 bash`
 2. `mysql -u root -p`
 3. `CREATE DATABASE attendance_test;`
 4. `.envから.env.testingを作成し、環境変数をテスト用に変更`
