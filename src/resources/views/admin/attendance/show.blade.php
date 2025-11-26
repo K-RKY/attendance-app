@@ -2,11 +2,11 @@
 
 @section('content')
 
-@if ($requestStatus == 0)
+@if ($requestStatus === 0)
 @php
 $actionHtml = '<span class="pending-message">*承認待ちのため修正できません。</span>'
 @endphp
-@elseif ($requestStatus == 1)
+@elseif ($requestStatus === 1)
 @php
 $actionHtml = '<button class="submit-button" disabled="true">承認済み</button>'
 @endphp
