@@ -1,4 +1,4 @@
-# COACHTECH furima
+# COACHTECH ATTENDANCE APP
 
 ## 環境構築
 
@@ -43,7 +43,8 @@
 
 ## ER図
 
-<img width="941" height="761" alt="attendance" src="https://github.com/user-attachments/assets/90887ee3-141b-4e8c-a5fa-f0e6653a28a2" />
+<img width="941" height="761" alt="attendance" src="https://github.com/user-attachments/assets/9b50506d-4737-47f7-ba7d-3d3bfd12d018" />
+
 
 ## URL
 
